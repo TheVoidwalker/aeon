@@ -1,0 +1,18 @@
+#include <iostream>
+
+int funkcja1()
+{
+    return 42;
+}
+
+void funkcja2()
+{
+    std::cout << std::endl;
+}
+
+int main()
+{
+    funkcja2();
+    std::cout << "Hello World! Odpowiedz na wszystkie pytania to: " << funkcja1();
+    funkcja2();
+}
